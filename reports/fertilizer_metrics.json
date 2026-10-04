@@ -1,0 +1,86 @@
+{
+  "project": "Fertilizer Recommendation",
+  "algorithm": "ColumnTransformer + StandardScaler/OneHotEncoder + RandomForestClassifier",
+  "samples": 99,
+  "numeric_features": [
+    "Temparature",
+    "Humidity",
+    "Moisture",
+    "Nitrogen",
+    "Potassium",
+    "Phosphorous"
+  ],
+  "categorical_features": [
+    "Soil Type",
+    "Crop Type"
+  ],
+  "classes": [
+    "10-26-26",
+    "14-35-14",
+    "17-17-17",
+    "20-20",
+    "28-28",
+    "DAP",
+    "Urea"
+  ],
+  "test_size": 0.2,
+  "random_state": 42,
+  "accuracy": 1.0,
+  "classification_report": {
+    "10-26-26": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "14-35-14": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "17-17-17": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1.0
+    },
+    "20-20": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "28-28": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "DAP": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 4.0
+    },
+    "Urea": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 5.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    }
+  }
+}
